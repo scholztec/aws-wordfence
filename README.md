@@ -1,6 +1,5 @@
 # aws-wordfence
 
-VIEW THIS PAGE IN CODE MODE
 
 Using wordfence is awesome.
 Using wordfence on AWS Lightsail preconfigured instances is a pain.
@@ -11,7 +10,7 @@ sudo nano /opt/bitnami/apache/conf/vhosts/htaccess/wordpress-htaccess.conf
 
 Paste the following at the bottom of the file, then save, exit, and reboot.
 
-...
+```
 <Directory "/opt/bitnami/wordpress/">
 <IfModule mod_rewrite.c>
         RewriteEngine On
@@ -40,4 +39,4 @@ Paste the following at the bottom of the file, then save, exit, and reboot.
 </IfModule>
 </Files>
 </Directory>
-...
+```
