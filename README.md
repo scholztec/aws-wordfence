@@ -1,5 +1,6 @@
 # aws-wordfence
 
+VIEW THIS PAGE IN CODE MODE
 
 Using wordfence is awesome.
 Using wordfence on AWS Lightsail preconfigured instances is a pain.
