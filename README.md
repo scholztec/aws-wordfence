@@ -5,8 +5,10 @@ Using wordfence is awesome.
 Using wordfence on AWS Lightsail preconfigured instances is a pain.
 Here's how to fix 'user.ini' being accessible.
 
+```
 cp /opt/bitnami/apache/conf/vhosts/htaccess/wordpress-htaccess.conf /opt/bitnami/apache/conf/vhosts/htaccess/wordpress-htaccess.conf.old
 sudo nano /opt/bitnami/apache/conf/vhosts/htaccess/wordpress-htaccess.conf
+```
 
 Paste the following at the bottom of the file, then save, exit, and reboot.
 
