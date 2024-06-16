@@ -7,6 +7,8 @@ Here's how to fix 'user.ini' being accessible.
 
 ```
 cp /opt/bitnami/apache/conf/vhosts/htaccess/wordpress-htaccess.conf /opt/bitnami/apache/conf/vhosts/htaccess/wordpress-htaccess.conf.old
+```
+```
 sudo nano /opt/bitnami/apache/conf/vhosts/htaccess/wordpress-htaccess.conf
 ```
 
